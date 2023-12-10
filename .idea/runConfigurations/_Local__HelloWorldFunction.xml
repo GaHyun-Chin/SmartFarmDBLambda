@@ -1,0 +1,33 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
+    <option name="credentialProviderId" value="profile:default" />
+    <option name="regionId" value="us-east-1" />
+    <option name="debugHost" value="localhost" />
+    <option name="architecture" />
+    <option name="environmentVariables">
+      <map />
+    </option>
+    <option name="handler" />
+    <option name="image" value="false" />
+    <option name="logicalFunctionName" value="HelloWorldFunction" />
+    <option name="memorySize" value="128" />
+    <option name="pathMappings">
+      <list />
+    </option>
+    <option name="platform" />
+    <option name="runtime" />
+    <option name="templateFile" value="$PROJECT_DIR$/template.yaml" />
+    <option name="timeout" value="300" />
+    <option name="useTemplate" value="true" />
+    <option name="input" value="{&#10;  &quot;previous&quot;: {&#10;    &quot;state&quot;: {&#10;      &quot;reported&quot;: {&#10;        &quot;temperature&quot;: &quot;24.50&quot;,&#10;        &quot;humidity&quot;: &quot;55&quot;,&#10;        &quot;soil_moisture&quot;: &quot;55&quot;,&#10;        &quot;light&quot;: &quot;36&quot;&#10;      }&#10;    },&#10;    &quot;metadata&quot;: {&#10;      &quot;reported&quot;: {&#10;        &quot;temperature&quot;: {&#10;          &quot;timestamp&quot;: 1575167548&#10;        },&#10;        &quot;humidity&quot;: {&#10;          &quot;timestamp&quot;: 1575167548&#10;        },&#10;        &quot;soil_moisture&quot;: {&#10;          &quot;timestamp&quot;: 1575167548&#10;        },&#10;        &quot;light&quot;:{&#10;          &quot;timestamp&quot;: 1575167548&#10;        }&#10;      }&#10;    },&#10;    &quot;version&quot;: 4447&#10;  },&#10;  &quot;current&quot;: {&#10;    &quot;state&quot;: {&#10;      &quot;reported&quot;: {&#10;        &quot;temperature&quot;: &quot;21.40&quot;,&#10;        &quot;humidity&quot;: &quot;55&quot;,&#10;        &quot;soil_moisture&quot;: &quot;55&quot;,&#10;        &quot;light&quot;: &quot;36&quot;&#10;      }&#10;    },&#10;    &quot;metadata&quot;: {&#10;      &quot;reported&quot;: {&#10;        &quot;temperature&quot;: {&#10;          &quot;timestamp&quot;: 1575178081&#10;        },&#10;        &quot;humidity&quot;: {&#10;          &quot;timestamp&quot;: 1575178081&#10;        },&#10;        &quot;soil_moisture&quot;: {&#10;          &quot;timestamp&quot;: 1575178081&#10;        },&#10;        &quot;light&quot;: {&#10;          &quot;timestamp&quot;: 1575178081&#10;        }&#10;      }&#10;    },&#10;    &quot;version&quot;: 4448&#10;  },&#10;  &quot;timestamp&quot;: 1575178081,&#10;  &quot;device&quot;:&quot;MyMKRWiFi1010&quot;&#10;}" />
+    <option name="inputIsFile" value="false" />
+    <sam>
+      <option name="additionalBuildArgs" value="" />
+      <option name="additionalLocalArgs" value="" />
+      <option name="buildInContainer" value="false" />
+      <option name="dockerNetwork" value="" />
+      <option name="skipImagePull" value="false" />
+    </sam>
+    <method v="2" />
+  </configuration>
+</component>
